@@ -2,7 +2,6 @@ def min(a, b):
     return 0
 
 def main():
-    
     a = 1
     b = 2
     
