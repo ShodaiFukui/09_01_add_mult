@@ -15,6 +15,14 @@ class TestMyAdd(unittest.TestCase):
     def test_add_nn(self):
         val = myadd(-2, -6)
         self.assertTrue(val < 0)
+    
+    def test_add_a0(self):
+        val = myadd(0, 6)
+        self.assertEqual(6, val)
+    
+    def test_add_b0(self):
+        val = myadd(2, 0)
+        self.assertEqual(2, val)
 
 
 if __name__ == "__main__":
