@@ -15,5 +15,9 @@ class TestMyTest(unittest.TestCase):
         val = min(-2, -1)
         self.assertEqual(-2, val)
         
+    def test_min4(self):
+        val = min(-1, -2)
+        self.assertEqual(-2, val)
+        
 if __name__ == "__main__":
     unittest.main()
